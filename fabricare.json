@@ -1,0 +1,18 @@
+{
+	"solution": {
+		"name" : "lucide-icons-font",
+		"type" : "generic",
+		"projects": [
+			{
+				"name" : "lucide-icons",
+				"SPDX-License-Identifier": "ISC",
+				"sourceLink" : "https://github.com/lucide-icons/lucide",
+				"version" : "0.323.0",
+				"noVersion" : true
+			}
+		],
+		"releaseName" : "lucide-icons",
+		"releaseOutput" : true,
+		"releaseNoPlatform" : true
+	}
+}

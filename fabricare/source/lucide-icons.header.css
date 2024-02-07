@@ -1,0 +1,30 @@
+/*!
+// Lucide Icons 0.323.0 [https://github.com/lucide-icons/lucide] 
+// SPDX-FileCopyrightText: 2022 Lucide Contributors
+// SPDX-License-Identifier: ISC
+*/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "lucide-icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("lucide-icons.woff") format("woff");
+}
+
+[class^="lucide-"], [class*=" lucide-"] {
+  font-family: 'lucide-icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

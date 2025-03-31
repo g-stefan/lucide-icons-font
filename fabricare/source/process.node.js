@@ -18,7 +18,7 @@ svgtofont({
 	},
 	website : {
 		title : "Custom Lucide Icons Font",
-		version : "0.473.0",
+		version : "0.485.0",
 		logo : "",
 		meta : {
 			description : "",

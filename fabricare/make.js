@@ -48,7 +48,7 @@ var jobsCount = 0;
 		var filename = Shell.getFileName(fileList[j]);
 		var basename = Shell.getFileBasename(filename);
 
-		var newName = basename.replace("-outline", "").toLowerCaseAscii();
+		var newName = basename.replace("-outline", "").toLowerCaseASCII();
 
 		var svgContent = Shell.fileGetContents(fileList[j]);
 		Shell.filePutContents("temp/svg-1/" + newName + ".svg", svgContent);

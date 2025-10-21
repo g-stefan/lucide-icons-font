@@ -3,8 +3,8 @@
 // SPDX-FileCopyrightText: 2024 Grigore Stefan <g_stefan@yahoo.com>
 // SPDX-License-Identifier: Unlicense
 
-const svgtofont = require('svgtofont');
-const path = require('path');
+import path from 'path';
+import svgtofont from './node_modules/svgtofont/lib/index.js';
 
 svgtofont({
 	src : path.resolve(process.cwd(), 'temp/svg'),
@@ -18,7 +18,7 @@ svgtofont({
 	},
 	website : {
 		title : "Custom Lucide Icons Font",
-		version : "0.515.0",
+		version : "0.546.0",
 		logo : "",
 		meta : {
 			description : "",
